@@ -1,0 +1,55 @@
+/* css.css */
+.food {
+    display: flex;
+    align-items: center;
+    border: solid 1px #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px #c3c3c370;
+}
+
+.food .icon {
+    width: 44px;
+    height: 44px;
+    position: relative;
+}
+
+.icon-rica:before {
+    content: '😋'; /* Emoticono de cara saboreando */
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.icon-fea:before {
+    content: '😖'; /* Emoticono de cara con náuseas */
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.food .data {
+    padding: 10px;
+    min-width: 250px;
+}
+
+.food .data h4 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.food .data p {
+    margin: 0px;
+    font-size: 18px;
+    color: #939393;
+}
+
+.icon-rica {
+    background-color: #C8E6C9; /* Color de fondo para comidas ricas */
+}
+
+.icon-fea {
+    background-color: #FFCCBC; /* Color de fondo para comidas feas */
+}
